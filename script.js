@@ -425,7 +425,7 @@ function showReceipt(order) {
     // Create GPay payment link
     const paymentAmount = order.total;
     const paymentNote = `BookVerse Order ${order.id}`;
-    const gpayLink = `upi://pay?pa=vedantkadlak@okhdfcbank&pn=BookVerse&am=${paymentAmount}&cu=INR&tn=${encodeURIComponent(paymentNote)}`;
+    const gpayLink = `upi://pay?pa=aryankadlak6@okicici&pn=BookVerse&am=${paymentAmount}&cu=INR&tn=${encodeURIComponent(paymentNote)}`;
     
     receiptContent.innerHTML = `
         <div class="receipt-header">
